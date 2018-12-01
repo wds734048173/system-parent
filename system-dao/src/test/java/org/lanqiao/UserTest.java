@@ -8,4 +8,5 @@ public class UserTest {
         User user = new User("张三","123456");
         user.showInfo(user);
     }
+
 }
