@@ -12,6 +12,7 @@ import java.util.List;
 public class OrderDaoImpl implements IOrderDao {
 
     private QueryRunner qr = new QueryRunner(jdbcUtils.getDataSource());
+
     public List<Order> getOrderList() {
         String sql = "select * from tb_order";
         List<Order> orderList = null;
